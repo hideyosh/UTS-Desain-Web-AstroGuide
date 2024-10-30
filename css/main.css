@@ -13,14 +13,14 @@
     align-items: center;
     padding: 30px 5%;
     border-bottom: 1px solid;
-    color: blueviolet;
+    color: rgb(138, 43, 226);
     box-shadow: 0 3.5px 7px rgba(90, 2, 90, 0.35); 
 }
 
 
 .navbar a {
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(138, 43, 226);
 }
 
 .logo a:hover {
@@ -52,6 +52,11 @@
     margin-left: auto;
 }
 
+.nav-items .active {
+    color: rgb(195, 147, 241);
+    text-decoration: underline;
+}
+
 .nav-items ul {
     list-style: none;
     display: flex;
@@ -63,7 +68,6 @@
     margin-left: 30px;
     padding: 0px 12px 0px 12px;
 }
-
 
 .nav-items a {
     font-weight: 600;
@@ -90,7 +94,7 @@
 }
 
 .button #btn-login a:hover {
-    background-color: blueviolet;
+    background-color: #8a2be2;
     color: #ffff;
 }
 
@@ -122,7 +126,7 @@
 
 .text h1 {
     font-size: 40px;
-    color: blueviolet;
+    color: rgb(138, 43, 226);
 }
 
 .text p {
@@ -152,13 +156,13 @@
 }
 
 .section2 svg {
-    margin-bottom: -4px;
+    margin-bottom: -25px;
 }
 
 .section2 h1 {
     text-align: center;
     font-size: 40px;
-    color: blueviolet;
+    color: rgb(138, 43, 226);
 }
 
 .container {
@@ -171,7 +175,7 @@
     margin: 10px;
     padding: 20px;
     text-align: center;
-    border: 2px solid #c393f1;
+    border: 2px solid rgb(197, 148, 242);
     border-radius: 10px;
 }
 
@@ -183,7 +187,7 @@
 .column .col-text {
     margin: 20px 0px 20px 0px;
     padding: 15px;
-    color: #9e4de9;
+    color: rgb(158, 77, 233);
 }
 
 .col-text h3 {
@@ -193,17 +197,18 @@
 
 .col-text p {
     font-size: 16.5px;
+    color: rgb(45, 0, 86);
 }
 
 .section3 {
-    padding: 1% 0 0 0;
+    padding: 1% 0 8% 0;
 }
 
 .section3 h1 {
     text-align: center;
     font-size: 40px;
-    color: blueviolet;
-    margin-bottom: 40px;
+    color: rgb(138, 43, 226);
+    margin-bottom: 45px;
 }
 
 .section3 p {
@@ -219,7 +224,7 @@
     padding: 3%; 
     width: 70%;
     margin: auto;
-    border: 2px solid rgb(45, 0, 86);
+    border: 2px solid rgb(197, 148, 242);
     border-radius: 20ch;
 }
 
@@ -243,7 +248,7 @@
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    border: 2px solid rgb(45, 0, 86);
+    border: 2px solid rgb(197, 148, 242);
     border-radius: 20ch;
 }
 
@@ -259,34 +264,120 @@
 }
 
 .footer {
-    margin: 0;
-    padding: 20px;
+    border-top: 1px solid #faefff;
+    padding: 60px 0 60px 0;
+    background-color: #faefff;
+    
 }
 
-.footer .header-footer {
+.header-footer {
     display: flex;
-    margin: 23px 58px;
-    border: 1px solid;
-    padding: 15px;    
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border-bottom: 1px solid rgb(197, 148, 242);
 }
 
-.footer .logo-footer{
-    color: #c393f1;
-    text-decoration: none;
+.logo-footer {
+    font-size: 27px;
+    font-weight: bold;
+    color: rgb(138, 43, 226);
+    margin-bottom: 20px;
 }
 
-.footer .header-footer i {
-    color: #c393f1;
+.logo-footer span {
+    font-size: 27px;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(170, 60, 60, 0.8);  
 }
 
-.footer .header-footer ul {
+.social-media ul {
     list-style: none;
     display: flex;
+    margin-bottom: 20px;
 }
 
-.footer .header-footer li {
-    margin-left: 50px;
+.social-media li {
+    margin-left: 15px;
+    font-size: 28px;
 }
+
+.social-media a {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    color: rgb(138, 43, 226); 
+}
+
+.social-media a:hover {
+    background-color:  rgb(138, 43, 226); 
+    color: #faefff;
+}
+
+.body-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.links h4 {
+    color: #8a2be2;
+}
+
+.links ul li {
+    list-style: none;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(45, 0, 86);
+}
+
+.links a:hover {
+    color: #aa69e7;
+}
+.contact h4 {
+    color: #8a2be2;
+}
+
+.contact p {
+    margin-top: 10px;
+    color: rgb(45, 0, 86);
+}
+
+.location h4 {
+    color: #782bc1;    
+}
+.location p {
+    margin-top: 10px;
+    color: rgb(45, 0, 86);
+}
+
+footer {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid rgb(197, 148, 242);
+    background-color: #faefff;
+}
+footer p {
+    font-weight: 500;
+    color: #782bc1;
+}
+
+
 
 
 
