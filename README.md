@@ -13,3 +13,12 @@ AstroGuide adalah aplikasi belajar astronomi yang dirancang untuk membantu pengg
 - **CSS3:** Untuk desain dan tata letak yang responsif.
 - **JavaScript:** Untuk interaktivitas dan pengelolaan konten dinamis.
 
+## 📸 Screenshots
+**Tampilan Desktop**  
+https://github.com/user-attachments/assets/c986bbbe-7937-4188-ad08-40cd042d132c
+
+**Tampilan Tablet**  
+![Tampilan Tablet](link-to-tablet-screenshot)  
+
+**Tampilan Mobile**  
+![Tampilan Mobile](link-to-mobile-screenshot)  
