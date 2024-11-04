@@ -1,14 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/auth.css">
-</head>
-<body>
-   <div class="login-container">
-        <h2>Login</h2>
-   </div>
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="css/auth.css">
+    </head>
+    <body>
+        <div class="login-section">
+            <div class="img-login">
+                <img src="img/Exams-rafiki.png" alt="">
+            </div>
+            <div class="login-form">
+                <div class="header-form">
+                    <h3>Sign In</h3>
+                    <p id="welcome-message">Halo, Selamat datang kembali!</p>
+                </div>
+                <form id="login" action="" onsubmit="handleLogin(event)">
+                    <div class="section-form">
+                        <div class="label">
+                            <label for="name">Nama</label>
+                        </div>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="section-form">
+                        <div class="label">
+                            <label for="email">Email</label>
+                        </div>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="section-form">
+                        <div class="label">
+                            <label for="password">Password</label>
+                        </div>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div id="btn-login">
+                        <button type="submit">Sign In</button>
+                    </div>
+                    <div class="register-link">
+                        <p>Belum punya akun? <a href="index.html">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+    </html>
