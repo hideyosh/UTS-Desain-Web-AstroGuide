@@ -1,6 +1,6 @@
 # 🌌 Welcome to AstroGuide 🌌
 
-AstroGuide adalah website belajar astronomi yang dirancang untuk membantu pengguna memahami konsep-konsep dalam astronomi. Website yang saya buat ini merupakan sebuah webstie promosi yg mempromosikan astroguide sebegai salah satu penyedia layanan bimbel tentang astronomi. Saya mengambil referensi dari website ruangguru sebagai website yg mempromosikan sebuah website bimbel Proyek ini dikembangkan sebagai tugas Ujian Tengah Semester (UTS) untuk Mata Kuliah Desain Web.
+AstroGuide adalah website belajar astronomi yang dirancang untuk membantu pengguna memahami konsep-konsep dalam astronomi. Website yang saya buat ini merupakan sebuah webstie promosi yg mempromosikan astroguide sebegai salah satu penyedia layanan bimbel tentang astronomi. Saya mengambil referensi dari website ruangguru sebagai website yg mempromosikan sebuah website bimbel. Proyek ini dikembangkan sebagai tugas Ujian Tengah Semester (UTS) untuk Mata Kuliah Desain Web.
 
 ## 📋 Informasi Proyek
 - **Nama:** Tri Anggoro Budi S 
