@@ -25,6 +25,8 @@ AstroGuide adalah aplikasi belajar astronomi yang dirancang untuk membantu pengg
 **Tampilan Tablet**  
 <img src="https://github.com/user-attachments/assets/05688076-5191-412b-b65f-72922f04ebe4" alt="">
 <img src="https://github.com/user-attachments/assets/7ed6bc60-ed58-44a8-bf72-95978fbead05" alt="">
+<img src="https://github.com/user-attachments/assets/43e66990-7140-4f90-93c2-c64b1988d03d" alt="">
+<img src="https://github.com/user-attachments/assets/795bfdea-a7cd-4bdf-a413-3e883ecbdf39" alt="">
 
 **Tampilan Mobile**  
 ![Tampilan Mobile](link-to-mobile-screenshot)  
